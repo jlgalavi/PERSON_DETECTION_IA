@@ -1,0 +1,42 @@
+Este es el proyecto desarrollado a través de uno de los ejemplos proporcionados por espressif
+sobre el uso del sistema de AIoT.
+
+Miembros del equipo: 
+    - Jose Luis Galán Avilés
+    - Andrés Toledo
+    - Alberto Andrés Gómez
+    - Gonzalo Albelda Barona
+    - Gonzalo Martín Peñalba
+*********** INFORMACIÓN ***********
+Para ello se ha extraido el ejemplo de person_detection que nos ofrece el componente --> esp-tflite-micro , 
+y se le han añadido los módulos de wifi y de conexión mqtt para cumplir con los requisítos del proyecto.
+
+Los archivos que se han modificado del código original son los siguientes:
+
+    - detection_respondes.cc
+    - main_functions.cc
+
+En el archivo "detection_respondes.cc" se ha implementado la llamada a la función de mqtt_service_publish(...)
+para poder enviar los datos necesarios en función de si reconoce o no a una persona.
+
+En el archivo "main_functions.cc" se han implementado las inicializaciones tanto de la conexión wifi, como de la 
+conexión al servidor mqtt.
+
+*********** IMPORTANTE ***********
+Este código se a extraido desde un sistema Linux, donde se ha ejecutado lo siguiente:
+
+    - ESP-IDF: Full Clean
+    - ESP-IDF: SDKConfig
+    - ESP-IDF: Build Project
+
+Luego, se ha probado a realizar el Flash desde un sistema de Windows 10.
+
+Su funcionamiento está probado y testeado en el ESP32-S3 WROOM Dev-Kit de FREENOVE.
+
+Si se quiere utilizar en otro dispositivo diferente, posiblemente haya que reconfigurar los diferentes módulos,
+como por ejemplo la configuración de la cámara.
+***********************************
+
+Fecha: 27/05/2024
+Firmado: Jose Luis Galán Avilés
+

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/joseluis/esp/person_detection/build/CMakeFiles/bootloader
+/home/joseluis/esp/person_detection/build/CMakeFiles/bootloader.rule
+/home/joseluis/esp/person_detection/build/CMakeFiles/bootloader-complete.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/joseluis/esp/person_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
